@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import Mail from "../../icon/mail";
+import Ring from "../../icon/ring";
 
 export default function page() {
   return (
@@ -11,10 +12,15 @@ export default function page() {
             alt=""
           />
         </div>
-        <div>
+        <div className={styles.icons}>
           <Mail />
+          <Ring />
         </div>
       </header>
+      <div className={styles.profileContainer}>
+        <img src="" alt="" className={styles.profileImg} />
+        <div className={styles.profileInfo}></div>
+      </div>
     </body>
   );
 }

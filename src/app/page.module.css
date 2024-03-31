@@ -16,3 +16,14 @@
   height: 40px;
   background-color: white;
 }
+.icons {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profileContainer {
+  height: 100px;
+  width: 100%;
+  background-color: gainsboro;
+}
