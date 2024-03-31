@@ -17,6 +17,7 @@ export default function page() {
           <Ring />
         </div>
       </header>
+
       <div className={styles.profileContainer}>
         <img src="" alt="" className={styles.profileImg} />
         <div className={styles.profileInfo}></div>

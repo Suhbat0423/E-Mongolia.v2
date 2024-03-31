@@ -1,3 +1,5 @@
+/* header */
+
 .header {
   width: 100%;
   height: 52px;
@@ -7,6 +9,8 @@
   justify-content: space-between;
   align-items: center;
   display: flex;
+  position: fixed;
+  margin-top: -40px;
 }
 .headerImg {
   width: 160px;
@@ -22,8 +26,12 @@
   justify-content: space-between;
   align-items: center;
 }
+
+/* Profile container */
+
 .profileContainer {
   height: 120px;
   width: 100%;
   background-color: gainsboro;
+  margin-top: 40px;
 }
