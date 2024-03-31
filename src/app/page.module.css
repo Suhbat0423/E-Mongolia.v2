@@ -1,0 +1,18 @@
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #004dd9;
+  padding: 0px 20px;
+  padding-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.headerImg {
+  width: 160px;
+}
+.icon img {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+}
