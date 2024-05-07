@@ -2,7 +2,15 @@ import styles from "./page.module.css";
 import Mail from "../../icon/mail";
 import Ring from "../../icon/ring";
 import Refresh from "../../icon/refresh";
-// import IDF from "../../icon/IDF";
+import Car from "../../icon/car";
+import Notariat from "../../icon/notariat";
+import Daatgal from "../../icon/daatgal";
+import Huuhdiin from "../../icon/huuhdiin";
+import Eruul from "../../icon/eruul";
+import Unet from "../../icon/unet";
+import Zeel from "../../icon/zeel";
+import Tatvar from "../../icon/tatvar";
+import Company from "../../icon/company";
 
 export default function page() {
   return (
@@ -60,6 +68,69 @@ export default function page() {
           <div className={styles.line}></div>
           <br />
           <p>Иргэний үнэмлэх</p>
+        </div>
+      </div>
+      <div className={styles.needs}>
+        <h3>Хэрэгцээт үйлдэл</h3>
+        <div className={styles.needsContainer}>
+          <div className={styles.iconcar}>
+            <Car />
+          </div>
+          <p>Тээврийн хэрэгсэл</p>
+        </div>
+        <div className={styles.needsContainer}>
+          <div className={styles.iconcar}>
+            <Notariat />
+          </div>
+          <p>Нотариатын үйлчилгээ</p>
+        </div>
+        <div className={styles.needsContainer}>
+          <div className={styles.iconcar}>
+            <Daatgal />
+          </div>
+          <p>Нийгмийн даатгал</p>
+        </div>
+        <div className={styles.needsContainer}>
+          <div className={styles.iconcar}>
+            <Huuhdiin />
+          </div>
+          <p>Хүүхдийн мөнгөн тэтгэмж</p>
+        </div>
+        <div className={styles.needsContainer}>
+          <div className={styles.iconcar}>
+            <Eruul />
+          </div>
+          <p>Эрүүл мэнд</p>
+        </div>
+        <div className={styles.needsContainer}>
+          <div className={styles.iconcar}>
+            <Unet />
+          </div>
+          <p>Үнэт цааснууд / хувьцаа</p>
+        </div>
+        <div className={styles.needsContainer}>
+          <div className={styles.iconcar}>
+            <Zeel />
+          </div>
+          <p>Зээлийн мэдээлэл</p>
+        </div>
+        <div className={styles.needsContainer}>
+          <div className={styles.iconcar}>
+            <Tatvar />
+          </div>
+          <p>Татвар</p>
+        </div>
+        <div className={styles.needsContainer}>
+          <div className={styles.iconcar}>
+            <Company />
+          </div>
+          <p>Компани</p>
+        </div>
+        <div className={styles.needsContainer}>
+          <div className={styles.iconcar}>
+            <Unet />
+          </div>
+          <p>What3words</p>
         </div>
       </div>
     </body>
