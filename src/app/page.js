@@ -51,7 +51,7 @@ export default function page() {
       </div>
       <div className={styles.id}>
         <div className={styles.idheader}>
-          <p>Миний бичиг баримтууд</p>
+          <p className={styles.garchig}>Миний бичиг баримтууд</p>
           <div className={styles.containerRefresh}>
             <p>шинэчлэх</p>
             <div>
