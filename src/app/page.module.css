@@ -158,6 +158,6 @@
 /* Footer */
 .footer {
   position: fixed; /* Fix the footer to the bottom of the viewport */
-  left: 0;
+  left: -20px;
   bottom: 0;
 }
