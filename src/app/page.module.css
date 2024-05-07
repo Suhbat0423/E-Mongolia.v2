@@ -30,8 +30,45 @@
 /* Profile container */
 
 .profileContainer {
-  height: 120px;
+  height: 132px;
   width: 100%;
-  background-color: gainsboro;
+  background-color: #fefeff;
   margin-top: 40px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  font-size: 12px;
+}
+.profileContainer .profileImg {
+  margin-top: 12px;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+}
+.profileInfo {
+  margin-left: 20px;
+}
+.profileInfo p {
+  color: #a8b6ca;
+}
+.profileInfo h1 {
+  color: #566786;
+}
+.profileInfo h3 {
+  color: #536277;
+}
+.profileImgLogo {
+  width: 20px;
+  height: 20px;
+}
+/* id */
+
+.id {
+  width: 100%;
+  height: 220px;
+  background-color: rebeccapurple;
+  display: flex;
+}
+.idheader {
+  display: flex;
 }

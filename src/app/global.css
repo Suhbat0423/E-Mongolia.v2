@@ -5,5 +5,10 @@
 }
 body {
   height: 120vh;
-  /* position: relative; */
+  background-color: #f8f8ff;
+}
+.id {
+  width: 100%;
+  height: 400px;
+  background-color: rebeccapurple;
 }
