@@ -1,6 +1,8 @@
 import styles from "./page.module.css";
 import Mail from "../../icon/mail";
 import Ring from "../../icon/ring";
+import Refresh from "../../icon/refresh";
+// import IDF from "../../icon/IDF";
 
 export default function page() {
   return (
@@ -37,10 +39,17 @@ export default function page() {
       <div className={styles.id}>
         <div className={styles.idheader}>
           <p>Миний бичиг баримтууд</p>
-          <div>
+          <div className={styles.containerRefresh}>
             <p>шинэчлэх</p>
-            <div className="refresh"></div>
+            <div>
+              <Refresh className={styles.refresh} />
+            </div>
           </div>
+        </div>
+        <div className={styles.idcontainer}>
+          <img src="https://i.ibb.co/3Stb6TT/Clip-path-group.png" alt="" />
+          <br />
+          <p>Иргэний үнэмлэх</p>
         </div>
       </div>
     </body>
