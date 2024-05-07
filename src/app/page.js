@@ -11,6 +11,7 @@ import Unet from "../../icon/unet";
 import Zeel from "../../icon/zeel";
 import Tatvar from "../../icon/tatvar";
 import Company from "../../icon/company";
+import Footer from "../../icon/footer";
 
 export default function page() {
   return (
@@ -132,6 +133,9 @@ export default function page() {
           </div>
           <p>What3words</p>
         </div>
+      </div>
+      <div className={styles.footer}>
+        <Footer />
       </div>
     </body>
   );
