@@ -11,7 +11,11 @@ import Unet from "../../icon/unet";
 import Zeel from "../../icon/zeel";
 import Tatvar from "../../icon/tatvar";
 import Company from "../../icon/company";
-import Footer from "../../icon/footer";
+import House from "../../icon/house";
+import Document from "../../icon/document";
+import Folder from "../../icon/folder";
+import Profile from "../../icon/profile";
+import QR from "../../icon/qr";
 
 export default function page() {
   return (
@@ -135,7 +139,25 @@ export default function page() {
         </div>
       </div>
       <div className={styles.footer}>
-        <Footer />
+        <div className={styles.footericons}>
+          <House />
+          <p>Hүүр</p>
+        </div>
+        <div className={styles.footericon}>
+          <Document />
+          <p>Үйлчилгээ</p>
+        </div>
+        <div className={styles.footericon}>
+          <Folder />
+          <p>Нэмэлт</p>
+        </div>
+        <div className={styles.footericon}>
+          <Profile />
+          <p className={styles.footerProfile}>Профайл</p>
+        </div>
+        <div className={styles.circle}>
+          <QR />
+        </div>
       </div>
     </body>
   );
